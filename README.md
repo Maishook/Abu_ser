@@ -92,7 +92,7 @@ Click WA logo to Join Support Group 👇
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/JM2qHJm8zS95itgHXjd88R)
   <div align="center">
        
-  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Arx&repo=Abu_ser&theme=nightowl)](https://github.com/Arx/Abu_ser)
+  [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=AMRUSIR&repo=AMRU-SER&theme=nightowl)](https://github.com/AMRUSIR/AMRU-SER)
   </div>
     
 ### ⚠ Warning ⚠
