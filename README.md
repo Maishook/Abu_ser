@@ -1,10 +1,9 @@
 <div align="center">
 <div align="center">
   <p align="center">
-<img src=https://www.linkpicture.com/q/20220107_193223_1.jpg>
+<img src=https://i.ibb.co/nPSmv7d/dd75acba3c0361cca99b05b1e5b6d5c6.png>
 </p>
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F7000&lines=WELCOME+TO+ABUSER+WA+BOT+REPO;CREATED+BY+ARX+ABU;THIS+IS+A+USERBOT+PRIVATE+AND+PUBLIC+BOT;WITH+MORE+FEATHERS)](https://git.io/typing-svg)
 
  </a>
 </p>
@@ -13,6 +12,10 @@
   <p align="center">
 <img src=https://www.linkpicture.com/q/IMG-20220108-WA0143.jpg>
 </p>
+
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F7000&lines=WELCOME+TO+ABUSER+WA+BOT+REPO;CREATED+BY+ARX+ABU;THIS+IS+A+USERBOT+PRIVATE+AND+PUBLIC+BOT;WITH+MORE+FEATHERS)](https://git.io/typing-svg)
+
+
   <p align="center">
 <a href="https://github.com/cyberchekuthan"><img title="Author" src="https://img.shields.io/badge/Author-Jasil-cyberchekuthan/Abu_ser?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
