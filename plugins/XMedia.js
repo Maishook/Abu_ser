@@ -80,7 +80,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pmp4image', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message.image) return await message.sendMessage('*Need Photo!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -104,7 +104,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pspectrum', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -125,7 +125,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pwaves', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -146,7 +146,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pfrequency', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
             var location = await message.client.downloadAndSaveMediaMessage({
                 key: {
                     remoteJid: message.reply_message.jid,
@@ -167,7 +167,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pavec', fromMe: true, dontAddCommandList: true}, (async (message, match) => {   
  
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -188,7 +188,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pvolumeaudio', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -209,7 +209,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pcqtaudio', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -272,7 +272,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pmp3reverse', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -424,7 +424,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pblurimage', fromMe: true, dontAddCommandList: true}, (async (message, match) => {   
  
         if (message.reply_message === false) return await message.sendMessage('*Need Photo!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -572,7 +572,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'penhanceimage', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Photo!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -614,7 +614,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pgif', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('Need Video!');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting to Gif..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting to Gif..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -637,7 +637,7 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'pagif', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('Need Video!');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting to Gif..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting to Gif..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -991,7 +991,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'mp4image', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Photo!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1015,7 +1015,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'spectrum', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1036,7 +1036,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'waves', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1057,7 +1057,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'frequency', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
             var location = await message.client.downloadAndSaveMediaMessage({
                 key: {
                     remoteJid: message.reply_message.jid,
@@ -1078,7 +1078,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'avec', fromMe: false, dontAddCommandList: true}, (async (message, match) => {   
  
         if (message.reply_message === false) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1099,7 +1099,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'volumeaudio', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1120,7 +1120,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'cqtaudio', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1183,7 +1183,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'mp3reverse', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1335,7 +1335,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'blurimage', fromMe: false, dontAddCommandList: true}, (async (message, match) => {   
  
         if (message.reply_message === false) return await message.sendMessage('*Need Photo!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1483,7 +1483,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'enhanceimage', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Photo!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1525,7 +1525,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'gif', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('Need Video!');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting to Gif..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting to Gif..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1548,7 +1548,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'agif', fromMe: false, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('Need Video!');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting to Gif..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting to Gif..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1887,7 +1887,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'mp4image', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message.image) return await message.sendMessage('*Need Photo!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1911,7 +1911,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'spectrum', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1932,7 +1932,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'waves', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1953,7 +1953,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'frequency', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
             var location = await message.client.downloadAndSaveMediaMessage({
                 key: {
                     remoteJid: message.reply_message.jid,
@@ -1974,7 +1974,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'avec', fromMe: true, dontAddCommandList: true}, (async (message, match) => {   
  
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -1995,7 +1995,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'volumeaudio', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -2016,7 +2016,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'cqtaudio', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (!message.reply_message) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -2079,7 +2079,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'mp3reverse', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Audio!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -2231,7 +2231,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'blurimage', fromMe: true, dontAddCommandList: true}, (async (message, match) => {   
  
         if (message.reply_message === false) return await message.sendMessage('*Need Photo!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```AbuAbu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -2379,7 +2379,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'enhanceimage', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('*Need Photo!*');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -2421,7 +2421,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'gif', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('Need Video!');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting to Gif..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting to Gif..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
@@ -2444,7 +2444,7 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'agif', fromMe: true, dontAddCommandList: true}, (async (message, match) => {    
 
         if (message.reply_message === false) return await message.sendMessage('Need Video!');
-        var downloading = await message.client.sendMessage(message.jid,'```Converting to Gif..```',MessageType.text);
+        var downloading = await message.client.sendMessage(message.jid,'```Abu Abu Converting to Gif..```',MessageType.text);
         var location = await message.client.downloadAndSaveMediaMessage({
             key: {
                 remoteJid: message.reply_message.jid,
