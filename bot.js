@@ -154,13 +154,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('Abu ser working' + config.WORKTYPE + ' new 💙'));
+            chalk.green.bold('Abu ᴡᴏʀᴋɪɴɢ ' + config.WORKTYPE + ' ɴᴏᴡ 💙'));
           // thanks to afnanplk
 	    if (config.LANG == 'EN' || config.LANG == 'ML') {
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
                 if (commits.total === 0) {
-                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./photo/maalutty.jpg"), MessageType.image, { caption: `*ʜᴇʏ ʙʀᴏ ᴀʙᴜ sᴇʀ ᴡᴏʀᴋɪɴɢ ` + config.WORKTYPE + ` 🥂* \n\n*ᴛʜᴀɴᴋʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴀʙᴜ_sᴇʀ_ʙᴏᴛ🥂*`});
+                    await conn.sendMessage(conn.user.jid,Lang.UPDATE, MessageType.text);    
                 } else {
                     var degisiklikler = Lang.NEW_UPDATE;
                     commits['all'].map(
